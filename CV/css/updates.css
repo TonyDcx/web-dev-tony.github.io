@@ -1,0 +1,57 @@
+@import url(partials/_variables.css);
+
+@import url(font.css);
+
+html, body{
+    margin: 0;
+}
+
+.container-fluid{
+    margin-top: -10px;
+    background-color: var(--main-bg-color);
+}
+
+.container-fluid .navbar-toggler{
+    background-color: white;
+    border: none;
+}
+
+.navbar .container-fluid .navbar-brand{
+    color: var(--main-text-color);
+}
+
+.navbar .container-fluid .navbar-brand:hover{
+    color: grey;
+}
+
+#navbarNav .navbar-nav .nav-item .nav-link{
+    color: var(--main-text-color);
+}
+
+#navbarNav .navbar-nav .nav-item .nav-link:hover{
+    color: var(--main-hover-color);
+}
+
+.navbar-brand{
+    font-family: var(--main-font);
+}
+
+.navbar-nav{
+    font-family: var(--main-font);
+}
+
+#accordionExample{
+    margin-top: -10px;
+}
+
+#accordionExample button{
+    font-family: var(--updates-main-font);
+    color: black;
+    font-size: 30px;
+}
+
+#accordionExample .accordion-body{
+    font-family: var(--updates-secondary-font);
+    font-size: 30px;
+    text-align: center;
+}

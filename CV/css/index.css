@@ -1,0 +1,133 @@
+/* Variable */
+@import url(font.css);
+
+@import url(/css/partials/_variables.css);
+
+html, body{
+    margin: 0;
+}
+
+body, html, header{
+    background-color: transparent;
+}
+
+.container-fluid{
+    margin-top: -10px;
+    background-color: lightblue;
+}
+
+.container-fluid .navbar-toggler{
+    background-color: white;
+    border: none;
+    color: black;
+}
+
+.navbar .container-fluid .navbar-brand{
+    color: black;
+}
+
+.navbar .container-fluid .navbar-brand:hover{
+    color: grey;
+}
+
+#navbarNav .navbar-nav .nav-item .nav-link{
+    color: var(--main-text-color);
+}
+
+#navbarNav .navbar-nav .nav-item .nav-link:hover{
+    color: var(--main-hover-color);
+}
+
+.navbar-brand{
+    font-family: var(--main-font);
+}
+
+.navbar-nav{
+    font-family: var(--main-font);
+}
+
+.quote .text-center .blackquote{
+    font-family: var(--second-main-font);
+}
+
+.text-container{
+    margin-top: -10px;
+}
+
+.title-container{
+    border-bottom: solid;
+    border-color: black;
+}
+
+.text-container .title-container{
+    font-family: var(--main-font);
+    color: black;
+    font-size: 35px;
+    text-align: center;
+    background-color: lightblue;
+}
+
+.text-container .answer-1{
+    font-family: var(--main-font);
+    color: rgb(58, 70, 4);
+    text-align: center;
+    background-color: rgb(174, 247, 6);
+    margin-top: -31px;
+    padding-top: 25px;
+    margin-bottom: -7.7px;
+}
+
+.b-c-b-c .b-c-b{
+    background-color: lightblue;
+    color: black;
+    font-family: var(--main-font);
+    text-align: center;
+    border-bottom: solid;
+    border-color: yellow;
+}
+
+.text-container{
+    margin-top: -10px;
+}
+
+.text-container-2{
+    margin-top: -10px;
+}
+
+.text-container-2 .title-container{
+    font-family: var(--main-font);
+    color: black;
+    font-size: 35px;
+    text-align: center;
+    background-color: lightblue;
+}
+
+.text-container-2 .answer-1{
+    font-family: var(--main-font);
+    color: rgb(58, 70, 4);
+    text-align: center;
+    margin-top: -31px;
+    padding-top: 25px;
+    padding-bottom: 31px;
+    margin-bottom: -8.7px;
+}
+
+.text-container-2 .b-c-b-c .b-c-b{
+    background-color: lightblue;
+    color: black;
+    font-family: var(--main-font);
+    text-align: center;
+}
+
+#carouselExampleDark{
+    margin-top: -10px;
+}
+
+#card{
+    float: right;
+}
+
+.card{
+    float: right;
+}
+

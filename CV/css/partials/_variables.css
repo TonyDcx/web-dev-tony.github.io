@@ -1,0 +1,15 @@
+html{
+    margin: 0px;
+    box-sizing: 100%;
+    width: 100%;
+}
+
+:root{
+    --main-font: 'Cormorant Unicase', serif;
+    --second-main-font: font-family: 'Roboto Slab', serif;
+    --main-bg-color: black;
+    --main-text-color: white;
+    --main-hover-color: grey;
+    --updates-main-font: 'Chango', cursive;
+    --updates-secondary-font: 'Anton', sans-serif;
+}
